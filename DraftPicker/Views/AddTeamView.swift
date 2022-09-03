@@ -81,6 +81,7 @@ struct AddTeamView: View {
                 }
             }
         }
+        .padding()
         .foregroundColor(.accentColor)
         .navigationBarTitle("Add teams 🖊")
     }

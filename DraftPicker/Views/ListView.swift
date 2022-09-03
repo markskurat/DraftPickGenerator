@@ -87,7 +87,7 @@ extension ListView {
     
     var pickerView: some View {
         HStack {
-            Text("Number of leage mates:")
+            Text("Number of league mates:")
             
             Picker("Please choose number of teams in your league!", selection: $vm.selectedTeams) {
                 ForEach(numberOfleagueMates, id: \.self) {
